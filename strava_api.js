@@ -10,7 +10,7 @@ function getActivites(res){
 
 function reAuthorize(){
     fetch(auth_link,{
-        method: 'get',
+        method: 'post',
         headers: {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json'
