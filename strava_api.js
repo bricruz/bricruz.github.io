@@ -19,9 +19,9 @@ function reAuthorize(){
 
         body: JSON.stringify({
 
-            client_id: 'xxxx',
-            client_secret: 'xxxx',
-            refresh_token: 'xxxx',
+            client_id: '79984',
+            client_secret: 'cd8eacd26bec38d4729324ded24080d25d0a6cf5',
+            refresh_token: '701ef1db968b503b19f959fd1e5e9957e0ba9fc6',
             grant_type: 'refresh_token'
         })
     }).then(res => res.json())
